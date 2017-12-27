@@ -5,3 +5,12 @@ License: GPL (>= 2)
 MD5sum: 96a3a1f4d859b60fc83066f66e9d4761
 NeedsCompilation: no
 
+Package: petro.One
+Version: 0.1.1
+Depends: R (>= 3.2)
+Imports: rvest, xml2, magrittr, tibble, tm, wordcloud, urltools, dplyr, graph,
+         Rgraphviz, ggplot2, RWeka, cluster, RColorBrewer
+Suggests: testthat, knitr, rmarkdown, covr
+License: GPL-2
+MD5sum: bc53e2da71d6333db2d479be89cd6be6
+NeedsCompilation: no
